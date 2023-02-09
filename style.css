@@ -1,0 +1,41 @@
+* {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #3a3a3a;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6e6e6e;
+}
+
+.main {
+    padding: 0 20%;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main-item__link {
+    background-color: #c7c7c7;
+    padding: 2% 8%;
+}
